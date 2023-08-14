@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
-@media (max-width: 768px) {
-    /* Estilos para dispositivos com largura máxima de 768px (como tablets e smartphones) */
-}
 
 *{
     margin: 0;
@@ -85,7 +82,7 @@
     text-align: center;
     color: #b2c7f5;
     margin-top: 20px;
-    margin-bottom: 78px;
+    margin-bottom: 90px;
 }
 
 .sub-texto:hover{
@@ -137,4 +134,56 @@ body{
 .texto-rodape{
     text-align: center;
     font-size: 15px;
+}
+
+
+@media screen and (max-width: 628px) {
+    .container{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .texto-principal{
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 25px; 
+    }
+
+    .lado-b{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .descricao-principal{
+    font-size: 17px;
+    margin-left: 25px;
+    }
+
+    .c-btn{
+    display: flex;
+    justify-content: center;
+    }
+
+    .btn1{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 80px;
+    border-radius: 20px; 
+    }
+
+    .sub-texto{
+    font-size: 18px;
+    }
+
+    .b-t{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    }
+
 }
