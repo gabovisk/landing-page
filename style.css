@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho{
+    background-color: #01197A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+}
+
+
+.main{
+    border-top: 2px solid rgba(255, 255, 255, 0.001);
+    background: linear-gradient(180deg, #001878 0%, rgba(0, 35, 174, 0.96) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.descricao-principal{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 27px;
+
+}
+
+.texto-principal{
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.sub-texto{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #b2c7f5;
+}
+
+.c-btn{
+    text-align: center;
+}
+
+.btn1{
+    border: none;
+    background-color: #004bdd;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 10px 90px;
+    border-radius: 20px;
+
+}
+
+.linha-vertical {
+    border-top: 2px solid #000; /* Cria uma linha vertical sólida de 1 pixel na cor preta */
+    height: 5px; /* Define a altura da linha */
+}
+
+.lado-a{
+    margin-right: 25px;
+}
+
+body{
+    font-size: 100%;
+}
