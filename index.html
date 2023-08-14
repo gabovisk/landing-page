@@ -21,18 +21,25 @@
     <main class="main">
         <div class="container">
             <div class="lado-a">
-                <h1 class="texto-principal">Consultoria <br>Estratégica p/<br> o Seu Sucesso<br> Empresarial</h1>
+                <p class="texto-principal">Consultoria <br>Estratégica p/<br> o Seu Sucesso<br> Empresarial</p>
                 <h2 class="descricao-principal">Colaborando para impulsionar sua empresa <br>com soluções tecnológicas inovadoras.</h2>             
                 <div class="c-btn">
                     <a href="#" class="btn1">Veja como funciona ></a>
                 </div>                
                 <br>
                 <a href="#"><h2 class="sub-texto">Seja um técnico da Tech 👋</h2></a>
-                <img line.jpg>
             </div>
                 
             <div class="lado-b">
-                <img src="hero.svg">
+                <picture>
+                    <source
+                    srcset="hero2.svg"
+                    media="(max-width: 400px)"
+                    src="hero.svg"
+                    media="(min-width: 600px)"
+                    >
+                    <img class="hero-1" src="hero.svg">
+                </picture>
             </div>
         </div>
     </main>
