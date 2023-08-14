@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+@media (max-width: 768px) {
+    /* Estilos para dispositivos com largura máxima de 768px (como tablets e smartphones) */
+}
 
 *{
     margin: 0;
@@ -23,7 +26,7 @@
 
 .cabecalho-menu-item{
     font-family: 'Manrope', sans-serif;
-    color: white;
+    color: #b2c7f5;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -31,6 +34,9 @@
     padding: 10px;
 }
 
+.cabecalho-menu-item:hover{
+    color:#fff
+}
 
 .main{
     border-top: 2px solid rgba(255, 255, 255, 0.001);
@@ -54,7 +60,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(255, 255, 255, 0.7);
-    margin-bottom: 27px;
+    margin-bottom: 35px;
 
 }
 
@@ -66,6 +72,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: white;
+    margin-bottom: 20px;
 
 }
 
@@ -77,6 +84,12 @@
     letter-spacing: 0em;
     text-align: center;
     color: #b2c7f5;
+    margin-top: 20px;
+    margin-bottom: 78px;
+}
+
+.sub-texto:hover{
+    color:#fff
 }
 
 .c-btn{
@@ -94,13 +107,14 @@
     text-align: left;
     color: white;
     padding: 10px 90px;
-    border-radius: 20px;
+    border-radius: 20px;    
+    transition: font-size 0.5s;
 
 }
 
-.linha-vertical {
-    border-top: 2px solid #000; /* Cria uma linha vertical sólida de 1 pixel na cor preta */
-    height: 5px; /* Define a altura da linha */
+.btn1:hover{
+    font-size: 18px;
+    
 }
 
 .lado-a{
@@ -109,4 +123,18 @@
 
 body{
     font-size: 100%;
+}
+
+.footer {
+    background-color: #0A2CB1; 
+    color: #667EAE; 
+    text-align: start; 
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.texto-rodape{
+    text-align: center;
+    font-size: 15px;
 }
